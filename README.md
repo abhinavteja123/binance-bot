@@ -43,7 +43,7 @@ binance-bot/
 │
 ├── bot.log                       # Execution logs (auto-generated)
 ├── requirements.txt              # Python dependencies
-├── .env.example                  # Example environment configuration
+├── .env.                 # Example environment configuration
 ├── .gitignore                    # Git ignore rules
 └── README.md                     # This file
 ```
@@ -284,6 +284,14 @@ This project is for educational purposes only. Use at your own risk.
 [Your Name]
 - GitHub: [@yourusername]
 - Email: your.email@example.com
+ADD .env file includes
+BINANCE_API_KEY=
+BINANCE_API_SECRET=
+
+# Testnet Configuration
+USE_TESTNET=True
+TESTNET_BASE_URL=https://testnet.binancefuture.com
+
 
 ## 🙏 Acknowledgments
 
